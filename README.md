@@ -1,39 +1,55 @@
 # KeyloggerButSafety
 
-## Türkçe Açıklama
+## Açıklama / Description / Beschreibung
 
-**Açıklama:**  
+**Türkçe:**  
 Bu Python scripti, sadece **eğitim ve test amaçlı** geliştirilmiştir.  
-TC Kimlik Numarası, 16 haneli kredi kartı gibi hassas verileri tespit edebilir.  
+ID (Kimlik numarası) ve 16 haneli kredi kartı gibi hassas verileri tespit edebilir.  
 
-**UYARI:**  
+**English:**  
+This Python script is developed **for educational and testing purposes only**.  
+It can detect sensitive data such as ID numbers and 16-digit credit cards.  
+
+**Deutsch:**  
+Dieses Python-Skript wurde **nur zu Bildungs- und Testzwecken** entwickelt.  
+Es kann sensible Daten wie Ausweisnummern und 16-stellige Kreditkarten erkennen.  
+
+---
+
+## UYARI / WARNING / WARNUNG
+
+**Türkçe:**  
 Bu scripti izinsiz bir şekilde kullanmak **yasalara aykırıdır**.  
 Kullanıcı, tüm sorumluluğu kabul eder; geliştirici sorumlu tutulamaz.  
 
-**Kullanım:**  
+**English:**  
+Unauthorized use of this script is **against the law**.  
+The user assumes full responsibility; the developer is not liable.  
+
+**Deutsch:**  
+Die unbefugte Nutzung dieses Skripts ist **rechtswidrig**.  
+Der Benutzer übernimmt die volle Verantwortung; der Entwickler ist nicht haftbar.  
+
+---
+
+## Kullanım / Usage / Verwendung
+
 - Script, Windows üzerinde çalışır ve konsol odaklıdır.  
 - ESC tuşuna basarak çıkabilirsiniz.  
 - Log dosyası: `console_log.txt`  
 
-**Not:**  
-Bu repo yalnızca **eğitim ve güvenlik testleri için** hazırlanmıştır.
-
----
-
-## English Description
-
-**Description:**  
-This Python script is developed **for educational and testing purposes only**.  
-It can detect sensitive data such as national ID numbers (TC), 16-digit credit cards.
-
-**WARNING:**  
-Unauthorized use of this script is **against the law**.  
-The user assumes full responsibility; the developer is not liable.  
-
-**Usage:**  
-- The script runs on Windows and is console-focused.  
+- Script runs on Windows and is console-focused.  
 - Press the ESC key to exit.  
 - Log file: `console_log.txt`  
 
-**Note:**  
-This repository is intended solely for **educational and security testing purposes**.
+- Script läuft unter Windows und ist konsolenorientiert.  
+- Drücken Sie die ESC-Taste, um zu beenden.  
+- Protokolldatei: `console_log.txt`  
+
+---
+
+## Not / Note / Hinweis
+
+Bu repo yalnızca **eğitim ve güvenlik testleri için** hazırlanmıştır.  
+This repository is intended solely for **educational and security testing purposes**.  
+Dieses Repository dient ausschließlich **zu Bildungs- und Sicherheitstestzwecken**.
