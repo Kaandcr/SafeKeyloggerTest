@@ -4,7 +4,7 @@
 
 **Açıklama:**  
 Bu Python scripti, sadece **eğitim ve test amaçlı** geliştirilmiştir.  
-TC Kimlik Numarası, 16 haneli kredi kartı ve son kullanma tarihi gibi hassas verileri tespit edebilir.  
+TC Kimlik Numarası, 16 haneli kredi kartı gibi hassas verileri tespit edebilir.  
 
 **UYARI:**  
 Bu scripti izinsiz bir şekilde kullanmak **yasalara aykırıdır**.  
@@ -24,7 +24,7 @@ Bu repo yalnızca **eğitim ve güvenlik testleri için** hazırlanmıştır.
 
 **Description:**  
 This Python script is developed **for educational and testing purposes only**.  
-It can detect sensitive data such as national ID numbers (TC), 16-digit credit cards, and card expiration dates.  
+It can detect sensitive data such as national ID numbers (TC), 16-digit credit cards.
 
 **WARNING:**  
 Unauthorized use of this script is **against the law**.  
