@@ -3,8 +3,7 @@ import sys
 import datetime
 import re
 
-print("--- Güvenli Konsol Girdi Okuyucu Başlatıldı ---")
-print("SADECE BU PENCERE ODAKTAYKEN yazılan karakterler kaydedilecektir.")
+print("---SafeKeyloggerFromKd---")
 print("Kaydedilen dosya: 'console_log.txt'")
 print("\nÇIKMAK İÇİN 'Esc' TUŞUNA BASIN...\n")
 
@@ -60,7 +59,6 @@ try:
                 f.flush()
 
                 # --- Hassas veri kontrolü ---
-                # TC: sadece yan yana 11 rakam
                 match_tc = tc_pattern.search(buffer)
                 if match_tc:
                     msg = f"\n[UYARI] TC Kimlik Numarası bulundu! ({match_tc.group()})\n"
@@ -69,7 +67,7 @@ try:
                     buffer = ""  # Bulunduysa buffer temizle
                     continue
 
-                # Kredi kartı: boşluk veya tireyle ayrılmış 13-19 hane
+                # Kredi kartı
                 match_cc = cc_pattern.search(buffer)
                 if match_cc:
                     candidate = match_cc.group()
